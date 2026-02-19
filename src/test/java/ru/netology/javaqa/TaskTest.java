@@ -27,7 +27,7 @@ public class TaskTest {
 
     @Test
     public void shouldMatchesEpicQueryFound() {
-        String[] subtasks = { "Молоко", "Яйца", "Хлеб" };
+        String[] subtasks = {"Молоко", "Яйца", "Хлеб"};
         Epic epic = new Epic(55, subtasks);
 
         boolean expected = true;
@@ -38,7 +38,7 @@ public class TaskTest {
 
     @Test
     public void shouldMatchesEpicQueryNotFound() {
-        String[] subtasks = { "Молоко", "Яйца", "Хлеб" };
+        String[] subtasks = {"Молоко", "Яйца", "Хлеб"};
         Epic epic = new Epic(56, subtasks);
 
         boolean expected = false;
